@@ -1,0 +1,212 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+:root{
+    background-image: url(imAGE1.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+
+}
+header{
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    
+}
+header .logo {
+    width: 10%;
+    height: 100%;
+    
+
+}
+.logo img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-color: rgb(46, 18, 18);
+}
+header .name {
+    width:25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(46, 18, 18);
+
+}
+.name h1 {
+    display: flex;
+     justify-content: flex-end;
+    font-size: 3rem;
+    letter-spacing: 0.7rem;
+    text-transform: uppercase;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.name h1:hover{
+    transition: all 0.5s;
+    opacity: 0.4;
+}
+header .hero {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.hero ul {
+    list-style: none;
+    display: flex;
+}
+.hero ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-size: 1.4rem;
+    color: rgb(59, 14, 14);
+    font-family: sans-serif;
+}
+.hero ul li a:hover{
+    font-size: 1.2rem;
+    background-color: lightblue;
+    border-radius: 0.2rem;
+    transition: all 0.7s;
+    color: whitesmoke;
+    padding: 0.3rem;
+}
+
+
+.seafood-list-about{
+    margin: auto;
+    margin-bottom: 1rem;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.seafood-list-about .seafood-menu{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.seafood-menu .seafood-img{
+    width: 20%;
+    height: 25vh;
+    display: flex;
+    border: none;
+}
+.seafood-img img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 50%;
+}
+.seafood-menu .seafood-about{
+    width: 60%;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.seafood-about h1 {
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    text-transform: capitalize;
+}
+.seafood-about p {
+    color: white;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+   
+}
+.seafood-about p span {
+    background-color: rgb(80, 10, 10);
+    color: white;
+}
+  .burger-list-about{
+        width: 98%;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .burger-list-about .burger-menu{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .burger-menu .burger-img{
+        width: 20%;
+        height: 25vh;
+        display: flex;  
+        align-items: center;
+    }
+    .burger-img img {
+        width: 90%;
+        height: 90%;
+        background-size: cover;
+
+    }
+    .burger-about {
+        width: 60%;
+        display: flex;
+    }
+    .burger-about h1 {
+        font-size: 1.2rem;
+    }
+    .burger-about p {
+        font-size: 1.1rem;
+    }
+    @media screen and (max-width:550px) {
+        .seafood-list-about{
+            width: 98%;
+            height: 30vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .seafood-list-about .sseafood-menu{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+        }
+        .seafood-menu .seafood-img{
+            width: 20%;
+            height: 25vh;
+            display: flex;  
+            align-items: cseafood
+        }
+        .seafood-img img {
+            width: 90%;
+            height: 90%;
+            background-size: cover;
+    
+        }
+        .seafood-about {
+            width: 60%;
+            display: flex;
+        }
+        .seafood-about h1 {
+            font-size: 1rem;
+        }
+        .seafood-about p {
+            font-size: 1.1rem;
+        }
+        .seafood-about p span {
+            font-size: 0.9rem;
+        }
+        
+    }

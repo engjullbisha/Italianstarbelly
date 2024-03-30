@@ -1,0 +1,171 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    
+}
+header .logo {
+    width: 10%;
+    height: 100%;
+    
+
+}
+.logo img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-color: rgb(46, 18, 18);
+}
+header .name {
+    width:25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(46, 18, 18);
+
+}
+.name h1 {
+    display: flex;
+     justify-content: flex-end;
+    font-size: 3rem;
+    letter-spacing: 0.7rem;
+    text-transform: uppercase;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.name h1:hover{
+    transition: all 0.5s;
+    opacity: 0.4;
+}
+:root{
+    background-image: url(imAGE1.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header .hero {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.hero ul {
+    list-style: none;
+    display: flex;
+}
+.hero ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-size: 1.4rem;
+    color: rgb(59, 14, 14);
+    font-family: sans-serif;
+}
+.hero ul li a:hover{
+    font-size: 1.2rem;
+    background-color: lightblue;
+    border-radius: 0.2rem;
+    transition: all 0.7s;
+    color: whitesmoke;
+    padding: 0.3rem;
+}
+.spaghetti{
+    width: 80%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.spaghetti-menu{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.spaghetti-menu-list{
+    width: 20%;
+    display: flex;
+    border: none;
+}
+.spaghetti-img{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+}
+.spaghetti-img img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-size: cover;
+    border-radius: 60%;
+}
+.spaghetti-about{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    color: white;
+}
+.spaghetti-about h1 {
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase  ;
+}
+.spaghetti-about p {
+    color: white;
+    font-size: 1.7rem;
+    text-transform: capitalize;
+}
+.spaghetti-about p span {
+    background-color: rgb(59, 14, 14);
+}
+@media screen and (max-width:550px){
+    
+     .spaghetti-menu {
+        width: 98%;
+        display: flex;
+        justify-content: space-between;
+     }
+     .spaghetti-menu-list {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+
+
+     }
+     .spaghetti-menu-list .spaghetti-img {
+        width: 60%;
+        height: 15vh;
+        display: flex;
+     }
+     .spaghetti-img img {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        border-radius: 50%;
+     }
+    .spaghetti-about {
+        width: 60%;
+    }
+    .spaghetti-about h1 {
+        font-size: 1.2rem;
+    }
+    .spaghetti-about p {
+        font-size: 1rem;
+    }
+
+    
+}
+
